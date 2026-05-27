@@ -9,7 +9,7 @@ face_cascade = cv2.CascadeClassifier(
 
 # 資料夾設定
 input_dir = "data"
-output_dir = "output"
+output_dir = "face_data_ok"
 
 # 建立 output 資料夾
 os.makedirs(output_dir, exist_ok=True)
